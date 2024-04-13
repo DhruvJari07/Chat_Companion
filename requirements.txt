@@ -1,0 +1,5 @@
+langchain
+python-dotenv==1.0.0
+streamlit
+streamlit_chat==0.0.2.2
+langchain_community

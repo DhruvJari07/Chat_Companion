@@ -6,6 +6,8 @@ from langchain_community.llms import Ollama
 from langchain.prompts import PromptTemplate
 
 llm = Ollama(model="phi:latest", base_url="http://ollama-container:11434", verbose=True)
+# if you have powerful/high spec machine then comment the above line and uncomment the below line to use best model : Llama2
+# llm = Ollama(model="llama2:latest", base_url="http://ollama-container:11434", verbose=True)
 
 def sendPrompt(prompt):
     global llm

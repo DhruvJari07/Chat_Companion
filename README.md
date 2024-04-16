@@ -33,6 +33,19 @@ docker build -t ollama_test .
 docker compose up
 ```
 
+Now open the another terminal in the same directory and run following command
+```
+docker container ls -a
+```
+
+You will see two containers running. Copy the container ID of the container which is using ollama/ollama image
+
+then apply following command using that container ID
+```
+docker exec -it <container_ID> ollama run phi
+```
+Note: If you have powerful machine and want to use best llm model (Llama2) then change 'phi' with llama2 in above command and also check app_test.py to change the model there before building a docker image aobve.
+
 open your browser and run 
 localhost:8501
 

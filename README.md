@@ -18,7 +18,7 @@ git clone https://github.com/DhruvJari07/Chat_Companion.git
 open the terminal create virtual environment and install requirements.txt.
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 run following commands in the terminal in the same directory

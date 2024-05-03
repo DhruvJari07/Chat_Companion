@@ -1,6 +1,6 @@
 # Chat_Companion
 
-Chat companion app to chat with your custom companion.
+Chat companion app to chat with your custom companion. You don't need high performance GPU to chat with your personal AI. You can run this your own chatgpt like chatbot on your cpu.
 
 ## Prerequisites
 To run this app, you have to install docker on your machine from https://docs.docker.com/engine/install/
